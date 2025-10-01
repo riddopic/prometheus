@@ -1,6 +1,6 @@
 module github.com/prometheus/prometheus
 
-go 1.18
+go 1.24.0
 
 require (
 	github.com/Azure/azure-sdk-for-go v65.0.0+incompatible
@@ -61,7 +61,7 @@ require (
 	go.uber.org/automaxprocs v1.5.1
 	go.uber.org/goleak v1.2.0
 	golang.org/x/net v0.0.0-20220920203100-d0c6ba3f52d9
-	golang.org/x/oauth2 v0.0.0-20220909003341-f21342109be1
+	golang.org/x/oauth2 v0.31.0
 	golang.org/x/sync v0.0.0-20220907140024-f12130a52804
 	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8
 	golang.org/x/time v0.0.0-20220920022843-2ce7c2934d45
